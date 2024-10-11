@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>344</width>
+      <width>504</width>
       <height>32</height>
      </rect>
     </property>
@@ -48,6 +48,20 @@
         </widget>
        </item>
        <item>
+        <widget class="QPushButton" name="btnRound">
+         <property name="text">
+          <string>绘制圆</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnPicture">
+         <property name="text">
+          <string>绘制图片</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="horizontalSpacer">
          <property name="orientation">
           <enum>Qt::Orientation::Horizontal</enum>
@@ -61,6 +75,28 @@
         </spacer>
        </item>
       </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>491</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnTest">
+       <property name="text">
+        <string>绘制文本</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>

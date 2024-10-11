@@ -4,11 +4,15 @@
 #include <QMainWindow>
 #include <QMouseEvent>
 #include <QPainter>
+#include <QRect>
 
 enum DrawType{
     ELLIPSE,
     RECT,
     LINE,
+    ROUND,
+    TEXT,
+    PICTURE,
     NULLDRAW
 };
 
@@ -35,6 +39,9 @@ private slots:
     void DrawEllipse();
     void DrawRect();
     void DrawLine();
+    void DrawRound();
+    void DrawText();
+    void DrawPicture();
 
 private:
     Ui::MainWindow *ui;
