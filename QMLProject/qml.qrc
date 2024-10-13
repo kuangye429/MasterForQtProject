@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyRectangle.qml</file>
+        <file>C:/Users/Administrator/Desktop/20200312104851256.png</file>
+    </qresource>
+</RCC>
